@@ -1,7 +1,7 @@
 import pandas as pd
 
 def 自動鏈結醫療數據():
-    print("🚀 專案啟動：正在執行前期環境調教與數據鏈結...")
+    print("專案啟動：正在執行前期環境調教與數據鏈結...")
     
     檔案路徑 = "appointment_data.csv"
     
@@ -14,7 +14,7 @@ def 自動鏈結醫療數據():
 
     except FileNotFoundError:
         print(f"錯誤：在目前資料夾下找不到【{檔案路徑}】檔案！")
-        print("解決辦法：請檢查你的CSV檔案名稱是否名爲appointment_data.csv？並且有沒有跟 main.py 放在同一個資料夾？")
+        print("解決辦法：請檢查你的CSV檔案名稱是否名爲appointment_data.csv？是否同main.py放在同一資料夾？")
         return None
     except Exception as e:
         print(f" 發生其他未知的鏈結錯誤：{e}")
