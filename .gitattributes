@@ -1,5 +1,5 @@
 *.sql linguist-detectable=true
 *.sql linguist-language=SQL
 
-*.twb linguist-detectable=true
-*.twb linguist-language=XML
+*.twb linguist-documentation=false
+*.twb linguist-vendored=true
