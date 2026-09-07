@@ -150,7 +150,7 @@ WITH patient_history AS (
 				OR lead_time_days >=8 THEN 'High Risk'
 			WHEN (pior_no_show/ NULLIF(pior_appointments, 0))>=0.2
 				OR lead_time_days BETWEEN 4 AND 7 THEN 'Medium Risk'
-			ELSE 'Lpw Risk'
+			ELSE 'Low Risk'
 		END AS risk_tier
 	FROM patient_history;
         
