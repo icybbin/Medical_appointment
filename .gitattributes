@@ -1,0 +1,5 @@
+*.sql linguist-detectable=true
+*.sql linguist-language=SQL
+
+*.twb linguist-detectable=true
+*.twb linguist-language=XML
